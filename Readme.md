@@ -13,5 +13,20 @@
 1. create a db/index.js file
 2. write your connectDB function and export it 
 3. get back to (main)index.js file and call connectDB in it
-//NOTE: of getting error first try to check the correct imorts using file extensions example (index -> index.js)
+// NOTE: of getting error first try to check the correct imorts using file extensions example (index -> index.js)
 
+    (CREATING APP)
+1. import express in app.js
+2. create app
+3. import app in index.js and listen the app
+4. install cors and cookie-Parser
+5. import and use in app.js
+// NOTE: {
+    CORS = Cross-origin resource sharing (used for maintaing the integrity to request and response)
+    COOKIE-PARSER = it is basically used to perform CRUD operations on user browser from server
+}
+
+    (ERROR HANDLING)
+1. go to utils and create ApiError.js to handle all api Errors
+2. create an asyncHandler function 
+3. added ApiResponse

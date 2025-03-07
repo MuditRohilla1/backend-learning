@@ -26,7 +26,14 @@
     COOKIE-PARSER = it is basically used to perform CRUD operations on user browser from server
 }
 
-    (ERROR HANDLING)
+    (API ERROR HANDLING)
 1. go to utils and create ApiError.js to handle all api Errors
 2. create an asyncHandler function 
 3. added ApiResponse
+
+    (MODEL CREATION)
+1. create user and video model
+
+    (Encryption)
+1. install jwt and bcrypt
+2. import both in user model

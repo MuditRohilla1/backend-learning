@@ -37,3 +37,12 @@
     (Encryption)
 1. install jwt and bcrypt
 2. import both in user model
+3. added few jwt methods in user model
+
+    (ADDING CLOUDINARY)
+1. create new cloudinary file in utils
+2. add configurations
+
+    (ADDING MULTER)
+1. create new file in middleware named multer
+2. add configurations 

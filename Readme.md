@@ -46,3 +46,5 @@
     (ADDING MULTER)
 1. create new file in middleware named multer
 2. add configurations 
+
+    (ADD USER CONTROLLER)
